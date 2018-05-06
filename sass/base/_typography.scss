@@ -1,0 +1,72 @@
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.heading-primary {
+  font-size: 7.5rem;
+  font-weight: 500;
+
+  @include respond(tab-port) {
+    font-size: 4rem;
+  }
+
+  &--main {
+    // opacity: 0;
+    // animation: appearOpacity;
+    // animation-duration: 1s;
+    // animation-fill-mode: forwards;
+    // backface-visibility: 'hidden';
+  }
+}
+
+.heading-secondary {
+  font-size: 5rem;
+  font-weight: 200;
+
+  @include respond(tab-port) {
+    font-size: 3rem;
+  }
+
+  &--main {
+    // opacity: 0;
+    // animation: appearOpacity;
+    // animation-duration: 1s;
+    // animation-delay: .3s;
+    // animation-fill-mode: forwards;
+    // backface-visibility: 'hidden';
+  }
+}
+
+.heading-tertiary {
+  font-size: 6rem;
+  font-weight: 100;
+  letter-spacing: 0.6rem;
+  text-transform: uppercase;
+
+  &--smaller {
+    font-size: 4rem;
+  }
+
+  &--inverted {
+    background-color: $color-black;
+    color: $color-white;
+  }
+
+  @include respond(phone-big) {
+    font-size: 4rem;
+  }
+}
+
+.heading-quar {
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: 0.6rem;
+  text-transform: uppercase;
+}
+
+.default-p {
+  font-size: 2rem;
+  line-height: 4.5rem;
+}
