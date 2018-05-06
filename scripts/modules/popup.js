@@ -60,9 +60,9 @@ class Popup {
 
   getDataForApp(name) {
     if(name == "app-natours") {
-        return "https://gastikirs.github.io/natours-css/"
+        return "https://gastonkirsman.github.io/natours-css/"
     } else if (name== "app-trillo") {
-        return "https://gastikirs.github.io/trillo-css/"
+        return "https://gastonkirsman.github.io/trillo-css/"
     } else if(name=="app-react") {
         return "http://nameless-woodland-55081.herokuapp.com/#/"
     }
